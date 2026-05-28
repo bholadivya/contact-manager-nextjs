@@ -6,7 +6,7 @@ import axios from "axios"; // used for making API requests
 import { redirect } from "next/navigation"; // used for navigation/redirects in App Router
 import { deleteSession, setSession } from "../_lib/session"; // session helper functions
 
-const API_URL = "http://localhost:3001"; // fake backend URL
+const API_URL = "https://contact-manager-nextjs.onrender.com"; // fake backend URL
 
 // ========================================
 // LOGIN ACTION
