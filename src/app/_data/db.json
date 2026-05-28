@@ -1,0 +1,49 @@
+{
+  "contacts": [
+    {
+      "name": "prachi new",
+      "email": "prachi@gmail.com",
+      "userId": 1,
+      "id": "1"
+    },
+    {
+      "name": "divya bhola",
+      "email": "divya@gmail.com",
+      "userId": 1,
+      "id": "NdyG7HCqW_k"
+    },
+    {
+      "name": "Shrikant Poddar",
+      "email": "sk.shrikant149209@gmail.com",
+      "userId": 1,
+      "id": "oNI_CGvtcBk"
+    },
+    {
+      "name": "bhavya",
+      "email": "bhavya@gmail.com",
+      "userId": 2,
+      "id": "atU_0syEkxU"
+    },
+    {
+      "name": "yash tiwari",
+      "email": "yash@gmail.com",
+      "userId": 1,
+      "id": "8yjOSXLT7nI"
+    }
+  ],
+  "users": [
+    {
+      "id": "1",
+      "name": "user1",
+      "email": "user1@gmail.com",
+      "password": "user1"
+    },
+    {
+      "id": "2",
+      "name": "user2",
+      "email": "user2@gmail.com",
+      "password": "user2"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}
