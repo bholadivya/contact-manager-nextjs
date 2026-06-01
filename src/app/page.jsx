@@ -4,16 +4,16 @@ export default function Home() {
   return (
     <section className="flex flex-col items-center justify-center px-6 py-10 text-center">
       {/* HERO CONTENT */}
-      <div className="max-w-4xl">
-        <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight leading-tight text-gray-900">
+      <div className="max-w-6xl">
+        <h1 className="text-4xl md:text-6xl font-extrabold tracking-tight leading-tight text-gray-900 whitespace-nowrap">
           Welcome to <span className="text-blue-600">Contact Manager </span>
         </h1>
-        <p className="mt-6 text-lg md:text-2xl text-gray-600 leading-relaxed">
+        <p className="mt-4 text-lg md:text-xl text-gray-600 leading-relaxed">
           Manage your contacts beautifully, securely and efficiently.
         </p>
       </div>
       {/* HERO IMAGE */}
-      <div className="mt-14">
+      <div className="mt-8">
         <Image
           src="/Contact.png"
           alt="Contact Manager"
