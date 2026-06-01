@@ -19,13 +19,13 @@ const Navbar = async () => {
     // navbar container
     <nav className="bg-white shadow-sm">
       {/* center content with spacing and flex layout */}
-      <div className="container mx-auto px-8 py-5 flex justify-between items-center">
+      <div className="container mx-auto px-6 py-3 flex justify-between items-center">
         {/* website logo/title */}
         {/* Link provides fast client-side navigation */}
         {/* clicking this navigates to homepage */}
         <Link
           href="/"
-          className="text-4xl tracking-tight font-bold text-blue-700"
+          className="text-2xl md:text-3xl font-bold text-blue-700"
         >
           Contact Manager
         </Link>
