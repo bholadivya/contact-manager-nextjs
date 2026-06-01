@@ -2,7 +2,7 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <section className="min-h-[85vh] flex flex-col items-center justify-center px-6 py-20 text-center">
+    <section className="flex flex-col items-center justify-center px-6 py-10 text-center">
       {/* HERO CONTENT */}
       <div className="max-w-4xl">
         <h1 className="text-5xl md:text-7xl font-extrabold tracking-tight leading-tight text-gray-900">
@@ -20,7 +20,7 @@ export default function Home() {
           width={700}
           height={700}
           priority
-          className=" w-[340px] sm:w-[500px] md:w-[720px] h-auto drop-shadow-2xl"
+          className=" w-full max-w-[500px] h-auto rounded-lg shadow-lg"
         />
       </div>
       {/* FOOTER TEXT */}
